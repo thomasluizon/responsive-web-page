@@ -10,24 +10,70 @@
       <link rel="icon" href="img/devchallenges.png" />
       <title>Collab</title>
       <link rel="stylesheet" href="styles/reset.css" />
+      <link rel="stylesheet" href="styles/styles.css" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
+      <script src="main.js" defer></script>
    </head>
    <body>
+      <aside class="drawer__nav">
+         <div class="drawer__nav-header">
+            <img class="header__logo" src="img/Collab..png" alt="Logo" />
+            <div id="drawer__close">
+               <i class="fa fa-close"></i>
+            </div>
+         </div>
+         <a href="#" class="drawer__item">Home</a>
+         <a href="#" class="drawer__item">About</a>
+         <a href="#" class="drawer__item">Services</a>
+         <a href="#" class="drawer__item">Contact</a>
+         <a href="#" class="drawer__item">Location</a>
+      </aside>
       <header>
-         <img class="header__logo" src="img/Collab..png" alt="Logo" />
-         <nav class="header__nav">
-            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">About</a></li>
-            <li class="nav__item">
-               <a href="#" class="nav__link">Services</a>
-            </li>
-            <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
-            <li class="nav__item">
-               <a href="#" class="nav__link">Location</a>
-            </li>
-         </nav>
+         <i id="drawer-btn" class="fa fa-reorder"> </i>
+         <div class="nav__wrap">
+            <img class="header__logo" src="img/Collab..png" alt="Logo" />
+            <nav class="header__nav">
+               <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+               <li class="nav__item">
+                  <a href="#" class="nav__link">About</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#" class="nav__link">Services</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#" class="nav__link">Contact</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#" class="nav__link">Location</a>
+               </li>
+            </nav>
+         </div>
          <button class="header__btn">
             <p>Get Started</p>
          </button>
       </header>
+      <main>
+         <section class="main__about">
+            <h1 class="about__title">Collaborate like Never Before</h1>
+            <p class="about__text">
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim,
+               quam nulla. Repudiandae qui dolorum harum et optio accusamus
+               voluptatem reiciendis.
+            </p>
+            <button class="about__button">
+               <i class="fa fa-play-circle"></i>
+               <p class="about__button-text">Discover Video</p>
+            </button>
+         </section>
+         <img src="img/data-x1.png" class="main__image" />
+      </main>
+      <footer>
+         <a href="#" class="socials-item"><i class="fa fa-instagram"></i></a>
+         <a href="#" class="socials-item"><i class="fa fa-twitter"></i></a>
+         <a href="#" class="socials-item"><i class="fa fa-youtube-play"></i></a>
+      </footer>
    </body>
 </html>
